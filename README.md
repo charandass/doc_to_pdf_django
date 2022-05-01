@@ -20,6 +20,7 @@ Go to the project directory
 ```
 * Create ```Virtual Envionment```
 * Activate ```Virtual Envionment```
+* install `Redis` in your machine
 
 Install dependencies
 
@@ -32,9 +33,19 @@ Start the server
 ```bash
   python manage.py runserver
 ```
-
+Check the project on Browser using
+```bash 
+  http://127.0.0.1:8000/
+```
 Start Celery task quere in another terminal
 ```bash
   celery -A celery_example worker -l info -P eventlet
 ```
+
+
+## Here are some practical Demo
+![Alt text](img/gif1.gif)
+![Alt text](img/gif2.gif)
+![Alt text](img/gif3.gif)
+
 

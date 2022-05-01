@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse, HttpResponseRedirect
 from .task import *
-from .helper import *
+# from .helper import *
 from django.core.files.storage import FileSystemStorage
 import os
 from docx2pdf import convert
