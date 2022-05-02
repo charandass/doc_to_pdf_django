@@ -9,7 +9,7 @@ this project was created with the help of celery Distributed task queue.
 Clone the project/ Extract folder
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/charandass/doc_to_pdf_django.git
 ```
 * Download ```Zip``` file and extract it.
 
